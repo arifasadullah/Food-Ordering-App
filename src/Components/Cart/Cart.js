@@ -72,6 +72,7 @@ const Cart = (props) => {
   const cartModelContent = (
     <Fragment>
       {cartItems}
+      {!hasItems && <h3 style={{ color: "#4d1601" }}>No item in the cart</h3>}
       <div className={classes.total}>
         <span>Total Amount</span>
         <span>{totalAmount}</span>

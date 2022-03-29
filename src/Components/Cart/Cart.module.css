@@ -3,7 +3,17 @@
   margin: 0;
   padding: 0;
   max-height: 20rem;
-  overflow: scroll;
+  overflow-y: scroll;
+}
+.cart-items::-webkit-scrollbar {
+  width: 0.5em;
+}
+.cart-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.cart-items::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 .didSubmitModelContent {
   display: flex;
