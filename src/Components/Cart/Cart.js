@@ -100,7 +100,7 @@ const Cart = (props) => {
   const didSubmitModelContent = (
     <div className={classes.didSubmitModelContent}>
       <p>Successfully sent the order</p>
-      <img src={succesImage} alt="success" />
+      <img className={classes.succesImage} src={succesImage} alt="success" />
       <div className={classes.actions}>
         <button className={classes.button} onClick={props.onClose}>
           Close
